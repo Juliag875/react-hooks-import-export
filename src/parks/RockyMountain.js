@@ -7,5 +7,5 @@ function wildlife() {
 function elevation() {
   console.log("9583 ft");
 }
-
-export { trees, wildlife };
+// With named exports, we can export multiple variables from a file
+export { trees, wildlife, elevation };
